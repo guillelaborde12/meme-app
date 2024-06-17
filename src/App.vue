@@ -1,9 +1,11 @@
 <template>
+  <h3>Meme App</h3>
+  <router-view />
+
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Generador </router-link> |
+    <router-link to="/docs">Documentación</router-link>
   </div>
-  <router-view/>
 </template>
 
 <style lang="scss">
@@ -16,8 +18,7 @@
 }
 
 #nav {
-  padding: 30px;
-
+  margin-top: 50px;
   a {
     font-weight: bold;
     color: #2c3e50;
