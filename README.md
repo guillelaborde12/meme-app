@@ -1,24 +1,13 @@
-# memeapp
+# MemeApp de los pibes
 
-## Project setup
+## Instalar dependencias (SI O SI)
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilar para testear como developer
+
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
